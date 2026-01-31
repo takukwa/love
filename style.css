@@ -1,0 +1,27 @@
+body {
+  background: black;
+  color: #f5d76e;
+  font-family: 'Times New Roman', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: none;
+  border: 1px solid #f5d76e;
+  color: #f5d76e;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f5d76e;
+  color: black;
+}
